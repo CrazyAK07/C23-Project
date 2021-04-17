@@ -43,13 +43,10 @@ function setup() {
 	//Creating the red zone/red zone for dropping the package
 	box1=createSprite(width/2, 650, 200, 20, {isStatic:true} );
 	box1.shapeColor=color("red")
-	World.add(world, box1);
 	box2=createSprite(500, 600, 20, 120, {isStatic:true} );
 	box2.shapeColor=color("red")
-	World.add(world, box2);
 	box3=createSprite(300, 600, 20, 120, {isStatic:true} );
 	box3.shapeColor=color("red")
-	World.add(world, box3);
 
 	Engine.run(engine);
   
